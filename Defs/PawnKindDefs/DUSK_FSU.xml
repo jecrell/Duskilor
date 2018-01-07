@@ -25,7 +25,7 @@
 			<max>5000</max>
 		</weaponMoney>
 		<weaponTags>
-			<li>DUSK_FrontlineSoldierUnit</li>
+			<li>DUSK_FSU_Gun</li>
 		</weaponTags>
 	</PawnKindDef>
 
@@ -52,7 +52,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>22</amount>
+              <amount>8</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -70,7 +70,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>22</amount>
+              <amount>8</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
