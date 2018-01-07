@@ -91,8 +91,8 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>DUSK_HumanoidRobot</body>
-      <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>4.0</baseHealthScale>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHealthScale>10.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
