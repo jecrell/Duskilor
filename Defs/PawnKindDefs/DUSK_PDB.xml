@@ -34,7 +34,7 @@
     <label>Personal Defensive Bodyguard</label>
     <description>This bulky robot is built similarly to a sumo wrestler, being 13ft in height, 10ft in width, and 8ft in length. Their focus is tanking attacks, and dealing massive melee damage to their attackers, though on occasion they will fire rockets from their shoulder mounts. The PDB is often used as a means to break down walls and other structures stopping its allies from getting to the organics</description>
     <statBases>
-      <MoveSpeed>6.6</MoveSpeed>
+      <MoveSpeed>5.214</MoveSpeed>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
@@ -91,8 +91,8 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>DUSK_HumanoidRobot</body>
-      <baseBodySize>2.0</baseBodySize>
-      <baseHealthScale>10.0</baseHealthScale>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHealthScale>4.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -143,7 +143,7 @@
     <label>pod rocket launcher</label>
     <description>A rocket launcher for quick shredding damage.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/DUSK_PodRocketLauncher</texPath>
+      <texPath>NullTex</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -167,14 +167,15 @@
     </tradeTags>
     <verbs>
       <li>
-        <verbClass>Verb_ShootOneUse</verbClass>
+        <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>DUSK_Bullet_PodRocket</defaultProjectile>
         <forcedMissRadius>0.0</forcedMissRadius>
-        <warmupTime>4.5</warmupTime>
+        <warmupTime>6</warmupTime>
         <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-        <range>40</range>
-        <burstShotCount>1</burstShotCount>
+        <range>60</range>
+        <burstShotCount>6</burstShotCount>
+		<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <soundCast>InfernoCannon_Fire</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <onlyManualCast>true</onlyManualCast>

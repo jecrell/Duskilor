@@ -47,16 +47,18 @@
 		<kindDef>Normal</kindDef>
         <commonality>100</commonality>
         <options>
-          <DUSK_PersonalDefensiveBodyguard>1</DUSK_PersonalDefensiveBodyguard>
-          <PirateBoss>100</PirateBoss>
+          <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
+		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
+          <PirateBoss>1</PirateBoss>
         </options>
       </li>
       <li>
 		<!-- Base defense -->
 		<kindDef>FactionBase</kindDef>
         <options>
-          <DUSK_PersonalDefensiveBodyguard>1</DUSK_PersonalDefensiveBodyguard>
-          <PirateBoss>100</PirateBoss>
+          <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
+		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
+          <PirateBoss>1</PirateBoss>
         </options>
       </li>
     </pawnGroupMakers>
