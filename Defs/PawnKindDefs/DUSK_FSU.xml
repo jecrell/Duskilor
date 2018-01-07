@@ -31,7 +31,7 @@
 
   <ThingDef ParentName="DUSK_BaseMechanoid">
     <defName>DUSK_FrontlineSoldierUnit</defName>
-    <label>Personal Defensive Bodyguard</label>
+    <label>Frontline Soldier Unit (FSU)</label>
     <description>These humanoid looking robots are able to carry a multitude of weapons, and their ability to use strategy puts them above a simple scyther. They work together in group in order to take down fortifications and turrets holding organics. Their ability to equip armor is also what makes them deadly.</description>
     <statBases>
       <MoveSpeed>6.6</MoveSpeed>
@@ -119,81 +119,6 @@
       <DUSK_TungstenCarbide>25</DUSK_TungstenCarbide>
       <Component>1</Component>
     </butcherProducts>
-  </ThingDef>
-  
-  
-	<ThingDef ParentName="BaseBullet">
-    <defName>DUSK_Bullet_PodRocket</defName>
-    <label>pod rocket</label>
-    <graphicData>
-      <texPath>Things/Projectile/Rocket_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>40</damageAmountBase>
-      <explosionRadius>4</explosionRadius>
-      <speed>50</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseGun">
-    <defName>DUSK_Gun_PodRocketLaucher</defName>
-    <label>pod rocket launcher</label>
-    <description>A rocket launcher for quick shredding damage.</description>
-    <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/DoomsdayLauncher</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <statBases>
-      <MarketValue>1600</MarketValue>
-      <Mass>8</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
-      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>2.0</Weapon_Bulk>
-    </statBases>
-    <techLevel>Spacer</techLevel>
-    <destroyOnDrop>true</destroyOnDrop>
-	<menuHidden>true</menuHidden>
-    <weaponTags>
-      <li>DUSK_PersonalDefensiveBodyguard</li>
-    </weaponTags>
-    <tradeTags>
-      <li>Exotic</li>
-    </tradeTags>
-    <verbs>
-      <li>
-        <verbClass>Verb_ShootOneUse</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DUSK_Bullet_PodRocket</defaultProjectile>
-        <forcedMissRadius>0.0</forcedMissRadius>
-        <warmupTime>4.5</warmupTime>
-        <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
-        <range>40</range>
-        <burstShotCount>1</burstShotCount>
-        <soundCast>InfernoCannon_Fire</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <onlyManualCast>true</onlyManualCast>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <muzzleFlashScale>14</muzzleFlashScale>
-      </li>
-    </verbs>
-    <tools>
-      <li>
-        <label>pod launch bay</label>
-        <capacities>
-          <li>Blunt</li>
-        </capacities>
-        <power>5</power>
-        <cooldownTime>1.9</cooldownTime>
-      </li>
-    </tools>
   </ThingDef>
 
 	
