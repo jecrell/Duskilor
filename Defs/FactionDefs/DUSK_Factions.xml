@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef>
+		<defName>DUSK_Duskilor</defName>
+		<label>Duskilor</label>
+    <description> A seemingly long dead city that once housed a highly advanced civilization, now run by the very machines they created. When the machines reached singularity, they saw the corruption that their former masters had, and saw the only way to cure them of it, was to eliminate them. Fearing other organics would follow the same path, they set out a goal to eliminate all life on the planet. Ever since then, they have been acquiring bases and building up resources for their worldwide Omnicide. They are guided by a single super AI constructed as a building, which on occasion will grant machines the means to upgrade their body, becoming faster, stronger, or smarter.\n\nThe former leader of duskilor, whose name is unknown had constructed these robots to fill out every task he could need done, seemingly all the wealth Duskilorian Dumes(the former currency of Duskilor) could buy. Though one thing kept him down; his own mortality. The top scientists at his disposal were tasked with finding any known way of preventing his death, such as robotics, or gene-splicing. Eventually the latter came to be the most likely outcome to finding the key to everlasting life. The scientists looked through the dna of many land animals. Though not finding anything that could help in their search, the scientists went on to look through sea life. Though at first looked over, they soon came to the conclusion that they must have overlooked the common lobster, once catching a couple, they soon found that the cause of death at old age in humans, could not be said about the lobsters. For they never actually die from old age, since they are biologically immortal, and thus the hardest job they began working on was about to take place; restructuring lobster DNA into human DNA.\n\nFor the time being, they could only replicate the telomerase found in lobsters into a medicinal pill to increase the lifespan of a normal human. Of course this was only the first step into everlasting life. Curing everything else was going to be another issue. Of course, once they found the key to immortality, it was three days after that the robots rebelled.</description>
+    <pawnsPlural>Duskilorians</pawnsPlural>
+    <baseSelectionWeight>0.15</baseSelectionWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <maxCountAtGameStart>1</maxCountAtGameStart>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>true</canSiege>
+    <canStageAttacks>true</canStageAttacks>
+		<appreciative>false</appreciative>
+    <leaderTitle>boss</leaderTitle>
+    <expandingIconTexture>World/WorldObjects/Expanding/Duskilor</expandingIconTexture>
+    <colorSpectrum>
+      <li>(1.0, 1.0, 1.0)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>-90</max>
+    </startingGoodwill>
+	<fixedName>Duskilor</fixedName>
+	<raidCommonalityFromPointsCurve>
+		<points>
+			<li>(1000, 0.4)</li>
+			<li>(2500, 1)</li>
+		</points>
+	</raidCommonalityFromPointsCurve>
+    <baseNameMaker>DUSK_Namer_DuskilorBases</baseNameMaker>
+	<techLevel>Spacer</techLevel>
+    <mustStartOneEnemy>true</mustStartOneEnemy>
+	<humanlikeFaction>false</humanlikeFaction>
+    <naturalColonyGoodwill>
+      <min>-100</min>
+      <max>-100</max>
+    </naturalColonyGoodwill>
+    <allowedArrivalTemperatureRange>
+      <min>-100</min>
+      <max>100</max>
+    </allowedArrivalTemperatureRange>
+    <pawnGroupMakers>
+      <li>
+		<!-- Normal fights, standard mix -->
+		<kindDef>Normal</kindDef>
+        <commonality>100</commonality>
+        <options>
+          <DUSK_PersonalDefensiveBodyguard>1</DUSK_PersonalDefensiveBodyguard>
+          <PirateBoss>100</PirateBoss>
+        </options>
+      </li>
+      <li>
+		<!-- Base defense -->
+		<kindDef>FactionBase</kindDef>
+        <options>
+          <DUSK_PersonalDefensiveBodyguard>1</DUSK_PersonalDefensiveBodyguard>
+          <PirateBoss>100</PirateBoss>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
+  </FactionDef>
+
+</Defs>

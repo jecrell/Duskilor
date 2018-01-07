@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>DUSK_Namer_DuskilorBases</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->Duskilor</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+</Defs>

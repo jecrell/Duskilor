@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <BodyPartDef>
+    <defName>DUSK_NuclearReactor</defName>
+    <label>nuclear reactor</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <bleedingRateMultiplier>5</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodPumpingSource</li>
+    </tags>
+    <spawnThingOnRemoved>DUSK_NuclearReactor</spawnThingOnRemoved>
+    <dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+
+    <BodyPartDef>
+    <defName>DUSK_InternalBattery</defName>
+    <label>internal battery</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BreathingSource</li>
+    </tags>
+    <spawnThingOnRemoved>DUSK_InternalBattery</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  
+  <BodyPartDef>
+    <defName>DUSK_QuantumFilter</defName>
+    <label>quantum filter</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodFiltrationKidney</li>
+    </tags>
+    <spawnThingOnRemoved>DUSK_Filter</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_ExhaustPort</defName>
+    <label>exhaust port</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodFiltrationLiver</li>
+    </tags>
+    <spawnThingOnRemoved>DUSK_ExhaustPort</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  
+  <BodyPartDef>
+    <defName>DUSK_Fan</defName>
+    <label>exhaust fan</label>
+    <hitPoints>20</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>BloodFiltrationLiver</li>
+    </tags>
+    <spawnThingOnRemoved>DUSK_ExhaustFan</spawnThingOnRemoved>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>DUSK_Generator</defName>
+    <label>generator</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>MetabolismSource</li>
+    </tags>
+    <spawnThingOnRemoved>DUSK_Generator</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_HeadFrame</defName>
+    <label>head frame</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <dontSuggestAmputation>true</dontSuggestAmputation>
+    <spawnThingOnRemoved>DUSK_HeadFrame</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_AICore</defName>
+    <label>AI core</label>
+    <hitPoints>10</hitPoints>
+    <oldInjuryBaseChance>1</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <tags>
+      <li>ConsciousnessSource</li>
+    </tags>
+    <dontSuggestAmputation>true</dontSuggestAmputation>
+    <spawnThingOnRemoved>DUSK_AICore</spawnThingOnRemoved>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_OpticSensor</defName>
+    <label>optic sensor</label>
+    <hitPoints>10</hitPoints>
+    <oldInjuryBaseChance>1</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>DUSK_Visor</defName>
+    <label>visor</label>
+    <hitPoints>10</hitPoints>
+    <oldInjuryBaseChance>1</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <useDestroyedOutLabel>true</useDestroyedOutLabel>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>SightSource</li>
+    </tags>
+    <hitChanceFactors>
+      <li>
+        <key>Blunt</key>
+        <value>0</value>
+      </li>
+    </hitChanceFactors>
+  </BodyPartDef>  
+
+  <BodyPartDef>
+    <defName>DUSK_AuditoryProcessor</defName>
+    <label>auditory processor</label>
+    <hitPoints>10</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>HearingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_Speaker</defName>
+    <label>speaker</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>EatingSource</li>
+      <li>TalkingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_InputSlots</defName>
+    <label>input slots</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>2</frostbiteVulnerability>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+    <beautyRelated>true</beautyRelated>
+    <tags>
+      <li>EatingSource</li>
+    </tags>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>DUSK_Frame</defName>
+    <label>frame</label>
+    <hitPoints>40</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+
+
+</Defs>

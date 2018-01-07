@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_NuclearReactor</defName>
+    <label>nuclear reactor</label>
+    <description>A dangerously powerful energy system capable of causing explosions if hit in just the right spot.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>500</MarketValue>
+      <Mass>50</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  
+  <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_InternalBattery</defName>
+    <label>internal battery</label>
+    <description>A battery capable of holding a long lasting charge.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>7</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+    
+  <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_Filter</defName>
+    <label>filter</label>
+    <description>Heavy duty filter capable of phasing out the toughest of pollutants.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+      <Mass>7</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_ExhaustPort</defName>
+    <label>exhaust port</label>
+    <description>The exhaust port provides proper venting for interior hardware.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>3</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+  <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_ExhaustFan</defName>
+    <label>exhaust fan</label>
+    <description>The exhaust fan pushes airflow in and out of internal hardware, filters, and exhaust ports.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+      <Mass>3</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  
+  <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_Generator</defName>
+    <label>generator</label>
+    <description>Provides power generation between systems.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>125</MarketValue>
+      <Mass>12</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+    <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_HeadFrame</defName>
+    <label>head frame</label>
+    <description>Skeletal framework for a robot's head.</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <Mass>3</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+
+    <ThingDef ParentName="DUSK_BodyPartArtificialBase">
+    <defName>DUSK_AICore</defName>
+    <label>AI core</label>
+    <description>Do androids dream of electric sheep?</description>
+    <graphicData>
+      <texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>25</MarketValue>
+      <Mass>3</Mass>
+			<DeteriorationRate>0.5</DeteriorationRate>
+    </statBases>
+    <tradeability>Sellable</tradeability>
+  </ThingDef>
+  
+  <!-- Bases -->
+  
+    
+  <ThingDef ParentName="DUSK_BodyPartBase" Name="DUSK_BodyPartArtificialBase" Abstract="True">
+    <thingCategories>
+      <li>BodyPartsArtificial</li>
+    </thingCategories>
+		<statBases>
+			<DeteriorationRate>2.0</DeteriorationRate>
+		</statBases>
+  </ThingDef>
+
+
+  <ThingDef Name="DUSK_BodyPartBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+			<Beauty>-4</Beauty>
+		</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isBodyPartOrImplant>true</isBodyPartOrImplant>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <pathCost>10</pathCost>
+  </ThingDef>
+
+  
+</Defs>
