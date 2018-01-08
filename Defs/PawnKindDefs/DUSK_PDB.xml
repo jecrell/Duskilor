@@ -122,7 +122,7 @@
   </ThingDef>
   
   
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="DUSK_BaseBullet">
     <defName>DUSK_Bullet_PodRocket</defName>
     <label>pod rocket</label>
     <graphicData>
@@ -138,7 +138,7 @@
       <speed>50</speed>
     </projectile>
   </ThingDef>
-  <ThingDef ParentName="BaseGun">
+  <ThingDef ParentName="DUSK_BaseGunNonArt">
     <defName>DUSK_Gun_PodRocketLaucher</defName>
     <label>pod rocket launcher</label>
     <description>A rocket launcher for quick shredding damage.</description>

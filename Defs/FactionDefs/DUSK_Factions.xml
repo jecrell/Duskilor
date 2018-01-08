@@ -47,6 +47,7 @@
 		<kindDef>Normal</kindDef>
         <commonality>100</commonality>
         <options>
+		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
 		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
           <PirateBoss>1</PirateBoss>
@@ -56,6 +57,7 @@
 		<!-- Base defense -->
 		<kindDef>FactionBase</kindDef>
         <options>
+		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
 		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
           <PirateBoss>1</PirateBoss>

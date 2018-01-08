@@ -2,16 +2,16 @@
 <Defs>
 
 	<PawnKindDef>
-		<defName>DUSK_FrontlineSoldierUnit</defName>
-		<label>Frontline Soldier Unit (FSU)</label>
-		<race>DUSK_FrontlineSoldierUnit</race>
-		<combatPower>240</combatPower>
+		<defName>DUSK_StealthDroid</defName>
+		<label>Stealth Droid (SD)</label>
+		<race>DUSK_StealthDroid</race>
+		<combatPower>60</combatPower>
 		<defaultFactionType>DUSK_Duskilor</defaultFactionType>
 		<aiAvoidCover>true</aiAvoidCover>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Duskilor/FrontlineSoldierUnit</texPath>
+					<texPath>Things/Pawn/Duskilor/StealthDroid</texPath>
 					<graphicClass>Graphic_Multi</graphicClass>
 					<drawSize>1.5</drawSize>
 					<shadowData>
@@ -20,21 +20,16 @@
 				</bodyGraphicData>
 			</li>
 		</lifeStages>
-		<weaponMoney>
-			<min>5000</min>
-			<max>5000</max>
-		</weaponMoney>
-		<weaponTags>
-			<li>DUSK_FSU_Gun</li>
-		</weaponTags>
+		<weaponMoney />
+		<weaponTags />
 	</PawnKindDef>
 
   <ThingDef ParentName="DUSK_BaseMechanoid">
-    <defName>DUSK_FrontlineSoldierUnit</defName>
-    <label>Frontline Soldier Unit (FSU)</label>
-    <description>These humanoid looking robots are able to carry a multitude of weapons, and their ability to use strategy puts them above a simple scyther. They work together in group in order to take down fortifications and turrets holding organics. Their ability to equip armor is also what makes them deadly.</description>
+    <defName>DUSK_StealthDroid</defName>
+    <label>Stealth Droid (SD)</label>
+    <description>Used in scouting missions and usually wearing the appropriate apparel to blend into the Environment usually sabotaging your defenses to make entry into your base much easier for his team. Usually prefers to opt out of combat encounters, but will fight if the need arises. Using its fists to stun the intruder to get away.</description>
     <statBases>
-      <MoveSpeed>6.6</MoveSpeed>
+      <MoveSpeed>7.6</MoveSpeed>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
