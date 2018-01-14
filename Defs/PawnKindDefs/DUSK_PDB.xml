@@ -34,7 +34,7 @@
     <label>Personal Defensive Bodyguard</label>
     <description>This bulky robot is built similarly to a sumo wrestler, being 13ft in height, 10ft in width, and 8ft in length. Their focus is tanking attacks, and dealing massive melee damage to their attackers, though on occasion they will fire rockets from their shoulder mounts. The PDB is often used as a means to break down walls and other structures stopping its allies from getting to the organics</description>
     <statBases>
-      <MoveSpeed>5.214</MoveSpeed>
+      <MoveSpeed>2.61</MoveSpeed>
       <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.25</ArmorRating_Sharp>
       <MeatAmount>0</MeatAmount>
@@ -133,9 +133,9 @@
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
       <damageDef>Bomb</damageDef>
-      <damageAmountBase>40</damageAmountBase>
+      <damageAmountBase>35</damageAmountBase>
       <explosionRadius>4</explosionRadius>
-      <speed>50</speed>
+      <speed>30</speed>
     </projectile>
   </ThingDef>
   <ThingDef ParentName="DUSK_BaseGunNonArt">
@@ -149,10 +149,10 @@
     <statBases>
       <MarketValue>1600</MarketValue>
       <Mass>8</Mass>
-      <AccuracyTouch>1.0</AccuracyTouch>
-      <AccuracyShort>1.0</AccuracyShort>
-      <AccuracyMedium>1.0</AccuracyMedium>
-      <AccuracyLong>1.0</AccuracyLong>
+      <AccuracyTouch>0.40</AccuracyTouch>
+      <AccuracyShort>0.55</AccuracyShort>
+      <AccuracyMedium>0.70</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
       <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
     </statBases>
@@ -192,7 +192,7 @@
           <li>Blunt</li>
         </capacities>
         <power>5</power>
-        <cooldownTime>1.9</cooldownTime>
+        <cooldownTime>4.9</cooldownTime>
       </li>
     </tools>
   </ThingDef>
