@@ -49,6 +49,7 @@
         <options>
 		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
+          <DUSK_HeavyWeaponUnit>10</DUSK_HeavyWeaponUnit>
 		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
           <PirateBoss>1</PirateBoss>
         </options>
@@ -59,6 +60,7 @@
         <options>
 		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
+          <DUSK_HeavyWeaponUnit>10</DUSK_HeavyWeaponUnit>
 		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
           <PirateBoss>1</PirateBoss>
         </options>
