@@ -46,7 +46,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>DUSK_Bullet_AssaultRifle</defaultProjectile>
         <warmupTime>0.9</warmupTime>
-        <range>31</range>
+        <range>35</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
         <soundCast>ShotAssaultRifle</soundCast>
