@@ -50,6 +50,7 @@
 		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
           <DUSK_HeavyWeaponUnit>10</DUSK_HeavyWeaponUnit>
+		  <DUSK_WarAndroid>15</DUSK_WarAndroid>
 		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
           <PirateBoss>1</PirateBoss>
         </options>
