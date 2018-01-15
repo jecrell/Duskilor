@@ -45,7 +45,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>60</power>
+        <power>15</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -63,7 +63,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
+        <power>8</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <commonality>0.2</commonality>
@@ -73,8 +73,8 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>DUSK_HumanoidRobot</body>
-      <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>4.0</baseHealthScale>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHealthScale>5.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
@@ -117,7 +117,7 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>27</damageAmountBase>
-			<speed>120</speed>
+			<speed>150</speed>
 		</projectile>
 	</ThingDef>
 	<ThingDef ParentName="DUSK_BaseGunNonArt">
@@ -133,7 +133,7 @@
 			<AccuracyTouch>0.6</AccuracyTouch>
 			<AccuracyShort>0.8</AccuracyShort>
 			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.88</AccuracyLong>
+			<AccuracyLong>0.98</AccuracyLong>
 			<RangedWeapon_Cooldown>3.3</RangedWeapon_Cooldown>
       <Weapon_Bulk>2.0</Weapon_Bulk>
 		</statBases>
@@ -150,7 +150,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>Bullet_ChargeLance</defaultProjectile>
 				<warmupTime>1.5</warmupTime>
-				<range>37</range>
+				<range>75</range>
 				<burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 				<soundCast>ChargeLance_Fire</soundCast>
@@ -165,7 +165,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>10</power>
+        <power>12</power>
         <cooldownTime>1.9</cooldownTime>
       </li>
     </tools>

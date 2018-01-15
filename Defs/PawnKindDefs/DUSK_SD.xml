@@ -40,7 +40,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>60</power>
+        <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -58,7 +58,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>60</power>
+        <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -87,7 +87,7 @@
       <thinkTreeMain>Mechanoid</thinkTreeMain>
       <body>DUSK_HumanoidRobot</body>
       <baseBodySize>1.0</baseBodySize>
-      <baseHealthScale>4.0</baseHealthScale>
+      <baseHealthScale>2.0</baseHealthScale>
       <lifeStageAges>
         <li>
           <def>MechanoidFullyFormed</def>
