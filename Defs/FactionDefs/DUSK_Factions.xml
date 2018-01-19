@@ -48,6 +48,7 @@
         <commonality>100</commonality>
         <options>
 		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
+		  <DUSK_AntipersonnelTankUnit>8</DUSK_AntipersonnelTankUnit>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
           <DUSK_HeavyWeaponUnit>10</DUSK_HeavyWeaponUnit>
 		  <DUSK_WarAndroid>15</DUSK_WarAndroid>
@@ -60,6 +61,7 @@
 		<kindDef>FactionBase</kindDef>
         <options>
 		  <DUSK_StealthDroid>2</DUSK_StealthDroid>
+		  <DUSK_AntipersonnelTankUnit>8</DUSK_AntipersonnelTankUnit>
           <DUSK_PersonalDefensiveBodyguard>5</DUSK_PersonalDefensiveBodyguard>
           <DUSK_HeavyWeaponUnit>10</DUSK_HeavyWeaponUnit>
 		  <DUSK_FrontlineSoldierUnit>20</DUSK_FrontlineSoldierUnit>
